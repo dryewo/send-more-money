@@ -1,4 +1,4 @@
-# send-more-money
+# SEND+MORE=MONEY
 
 Use REPL to play around.
 
