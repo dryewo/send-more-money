@@ -34,7 +34,7 @@
   ;; Y in [3, 7]
   ;; X + Y = 10
 
-  ;; such eclarative
+  ;; Such declarative
   (def model
     [($in :x 1 6)                                           ; x is in the domain ranging from 1 to 6, inclusive
      ($in :y 3 7)                                           ; y is in the domain ranging from 3 to 7, inclusive
@@ -166,6 +166,7 @@ Node = #'\\w+'
 
 (comment
 
+  (parser "SEND+MORE=MONEY")
   (parse-tree "SEND+MORE=MONEY")
   (nodes (parse-tree "SEND+MORE=MONEY"))
   (var-domains (nodes (parse-tree "SEND+MORE=MONEY")))
